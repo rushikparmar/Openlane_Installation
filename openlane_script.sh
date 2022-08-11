@@ -28,9 +28,11 @@ sudo apt-get install -y device-tree-compiler
 sudo apt-get install -y make
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 sudo apt install containerd
-#sudo apt-get install python-pip
+sudo apt-get install python-pip
 sudo apt-get install python3-pip
 sudo pip install --upgrade pip
+
+sudo apt-get install python3-venv
 
 echo "=================================="
 echo "--- DOCKER INSTALLATION---"
@@ -85,12 +87,13 @@ echo
 
 git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 cd OpenLane/
-git checkout v0.23
+sudo git checkout master
 # Default PDK_ROOT is $(pwd)/pdks. If you want to install the PDK at a differnt location, uncomment the next line.
 #export PDK_ROOT=<absolute path to where skywater-pdk and open_pdks will reside>
-make openlane
-make pdk
-make test # This is to test that the flow and the pdk were properly inst
+sudo make
+#sudo makeopenlane
+#make pdk
+sudo make test # This is to test that the flow and the pdk were properly inst
 } 
 
 
