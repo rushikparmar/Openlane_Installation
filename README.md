@@ -8,9 +8,9 @@
 > 4. Klayout
 > 5. Openlane
 
->####################################################################
->############Follow the commands for installation####################
->####################################################################
+>####################################################################  
+>############Follow the commands for installation####################  
+>####################################################################  
 
 git clone https://github.com/rushikparmar/Openlane_Installation
 
@@ -20,13 +20,13 @@ chmod 777 openlane_script.sh
  
 sudo ./ openlane_script.sh
 
->############# Wait for "Basic test passed"##########################
->############# This marks successful installation ###################
+>############# Wait for "Basic test passed"##########################  
+>############# This marks successful installation ###################  
 
 
->####################################################################
->########Follow the commands for Openlane installation Test##########
->####################################################################
+>####################################################################  
+>########Follow the commands for Openlane installation Test##########  
+>####################################################################  
 
 cd apr/OpenLane
 
@@ -36,8 +36,8 @@ sudo make mount
 
 > Wait for "[SUCCESS]: Flow complete." 
 
-> In a new terminal cd to "designs/inverter/runs/RUN...../results/final/gds/"
-> cd "designs/inverter/runs/RUN...../results/final/gds/"
+> In a new terminal cd to "designs/inverter/runs/RUN...../results/final/gds/"  
+> cd "designs/inverter/runs/RUN...../results/final/gds/"  
 
 klayout inverter.gds 
  
