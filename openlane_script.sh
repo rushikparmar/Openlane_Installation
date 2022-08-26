@@ -28,7 +28,7 @@ sudo apt-get install -y device-tree-compiler
 sudo apt-get install -y make
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 sudo apt install containerd
-sudo apt-get install python-pip
+#sudo apt-get install python-pip
 sudo apt-get install python3-pip
 sudo pip install --upgrade pip
 
