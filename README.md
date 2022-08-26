@@ -1,12 +1,12 @@
-# Openlane_Installation
+## Openlane_Installation
 
-# Run the openlan_script.sh to install:
+## Run the openlan_script.sh to install:
 
-# 1. Python
-# 2. Magic
-# 3. Docker
-# 4. Klayout
-# 5. Openlane
+## 1. Python
+## 2. Magic
+## 3. Docker
+## 4. Klayout
+## 5. Openlane
 
 ####################################################################
 ############Follow the commands for installation####################
@@ -36,8 +36,8 @@ sudo make mount
 
 ###### Wait for "[SUCCESS]: Flow complete." #########################
 
-# In a new terminal cd to "designs/inverter/runs/RUN...../results/final/gds/"
-# cd "designs/inverter/runs/RUN...../results/final/gds/"
+## In a new terminal cd to "designs/inverter/runs/RUN...../results/final/gds/"
+## cd "designs/inverter/runs/RUN...../results/final/gds/"
 
 klayout inverter.gds 
  
